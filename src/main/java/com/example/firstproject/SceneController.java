@@ -24,11 +24,16 @@ public class SceneController {
         stage.show();
     }
 
-    public void change2(ActionEvent e) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("scene2.fxml"));
-        stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
-        scene= new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
+//    public void change2(ActionEvent e) throws IOException {
+//
+//    }
+
+//public void login(ActionEvent e) throws IOException{
+//    root = FXMLLoader.load(getClass().getResource("scene2.fxml"));
+//    stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+//    scene= new Scene(root);
+//    stage.setScene(scene);
+//    stage.show();
+//}
+
 }
