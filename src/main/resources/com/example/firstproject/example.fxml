@@ -14,5 +14,6 @@
       <Button layoutX="274.0" layoutY="346.0" mnemonicParsing="false" onAction="#down" text="Down" />
       <Label fx:id="Label1" layoutX="46.0" layoutY="338.0" text="Level1" />
       <Label fx:id="Label2" layoutX="475.0" layoutY="338.0" prefHeight="18.0" prefWidth="98.0" text="This is CSS styling" />
+      <Button layoutX="20.0" layoutY="14.0" mnemonicParsing="false" text="Change page" />
    </children>
 </AnchorPane>
