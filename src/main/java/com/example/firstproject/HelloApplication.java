@@ -1,5 +1,6 @@
 package com.example.firstproject;
 
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -14,6 +15,9 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("example.fxml"));
         //Group root = new Group()
         Scene scene = new Scene(fxmlLoader.load(), 640, 440, Color.BLACK);
+        scene.getStylesheets().add(HelloApplication.class.getResource("main.css").toExternalForm());
+        //String css = HelloApplication.class.getResource("main.css").toExternalForm();
+        //scene.getStylesheets().add(css);
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
